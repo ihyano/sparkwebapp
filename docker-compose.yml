@@ -3,7 +3,7 @@ services:
     web:	
         image: sparkwebapp:1.0
         deploy:
-            replicas: 5
+            replicas: 20
             resources:
                 limits:
                     cpus: "0.15"
